@@ -1,0 +1,15 @@
+environment: development
+analysis:
+  network: ethereum
+  n_swaps: 1000
+  thresholds:
+    volume_usd: 10000
+    pnl_usd: 500
+  time_window_hours: 24
+paths:
+  raw_data: data/raw
+  normalized: data/normalized
+  features: data/features
+  reports:
+    csv: reports/latest.csv
+    json: reports/latest.json
